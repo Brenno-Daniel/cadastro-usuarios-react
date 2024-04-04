@@ -1,16 +1,12 @@
 import "./Nav.css";
 import React from "react";
+import NavItem from "./NavItem";
 
 const Nav = (props) => (
   <aside className="menu-area">
     <nav className="menu">
-      {/* Refac links to separated components */}
-      <a href="#/">
-        <i className="fa fa-home"></i> Início
-      </a>
-      <a href="#/users">
-        <i className="fa fa-users"></i> Usuários
-      </a>
+      <NavItem icon="home" pageName="Início" />
+      <NavItem icon="users" pageName="Usuários" link="users" />
     </nav>
   </aside>
 );
