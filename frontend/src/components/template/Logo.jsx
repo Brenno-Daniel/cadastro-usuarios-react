@@ -5,7 +5,7 @@ import React from "react";
 const Logo = (props) => (
   <aside className="logo">
     <a href="/" className="logo">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="logo" className="rotate" />
     </a>
   </aside>
 );

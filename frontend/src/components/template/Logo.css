@@ -9,3 +9,16 @@ aside.logo img {
   padding: 0px 15px;
   width: 100%;
 }
+
+.rotate {
+  animation: rotation 20s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
